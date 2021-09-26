@@ -1,0 +1,74 @@
+<html lang="en">
+
+  <head>
+    <title>math problem set</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+  <body>
+    <div id="header">
+      <h3>Learn maths!</h3>
+    </div>
+    
+    <div id="timerbox">
+      <h2>timer: </h2>
+      <h3 id="textTimer">--:--</h3>
+    </div>
+
+    <div id="main">
+    <button class="button" id="stbutton" onclick="genProbs()">start</button>
+    <form id="frm" style="display:none">
+      <div id="box1">
+        <h4 id="question1">err1<br></h4> 
+        <input type="text" id="Answer1">
+        <p id="check1" ></p>
+      </div>
+      <div id="box2">
+        <h4 id="question2">err2<br></h4> 
+        <input type="text" id="Answer2">
+        <p id="check2"></p>
+      </div>
+      <div id="box3">
+        <h4 id="question3">err3<br></h4> 
+        <input type="text" id="Answer3">
+        <p id="check3"></p>
+      </div>
+      <div id="box4">
+        <h4 id="question4">err4<br></h4> 
+        <input type="text" id="Answer4">
+        <p id="check4"></p>
+      </div>
+      <div id="box5">
+        <h4 id="question5">err5<br></h4> 
+        <input type="text" id="Answer5">
+        <p id="check5"></p>
+      </div>
+      <div id="box6">
+        <h4 id="question6">err6<br></h4> 
+        <input type="text" id="Answer6">
+        <p id="check6"></p>
+      </div>
+      <div id="box7">
+        <h4 id="question7">err7<br></h4> 
+        <input type="text" id="Answer7">
+        <p id="check7"></p>
+      </div>
+      <div id="box8">
+        <h4 id="question8">err8<br></h4> 
+        <input type="text" id="Answer8">
+        <p id="check8"></p>
+      </div>
+    </form>
+
+    <button class="button" id="chbutton" onclick="checkFunction()" style="display:none">check answers</button>
+
+    <p id="result"></p>
+    </div>
+
+    <div id="footer">
+      <p> Laison tao, Daniel liu, Christopher zhang | 2021 summer ULHacks project </p>
+    </div>
+  </body>
+
+</html>
